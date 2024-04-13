@@ -250,3 +250,4 @@ D:\workSpace\pbl3\web_ecommerce\WebApp\WebApplication1\bin\Debug\net8.0\runtimes
 D:\workSpace\pbl3\web_ecommerce\WebApp\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\workSpace\pbl3\web_ecommerce\WebApp\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\workSpace\pbl3\web_ecommerce\WebApp\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\workSpace\pbl3\web_ecommerce\WebApp\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
