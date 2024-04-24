@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Data",
+    "\\ViewComponents",
+    "\\ViewModels",
     "\\Views",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Shared\\_Header.cshtml",
+  "SelectedNode": "\\ViewModels\\Register.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workSpace\\pbl3\\web_ecommerce\\WebApp\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Laptop HP\\source\\repos\\code_pbl3\\webApp\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\workSpace\\pbl3\\web_ecommerce\\WebApp\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Laptop HP\\source\\repos\\code_pbl3\\webApp\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workSpace\\pbl3\\web_ecommerce\\WebApp\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Laptop HP\\source\\repos\\code_pbl3\\webApp\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\workSpace\\pbl3\\web_ecommerce\\WebApp\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\workSpace\\pbl3\\web_ecommerce\\WebApp\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Laptop HP\\source\\repos\\code_pbl3\\webApp\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Laptop HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop HP\\source\\repos\\code_pbl3\\webApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"

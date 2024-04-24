@@ -5,7 +5,7 @@ namespace WebApplication1.Data;
 
 public partial class Customer
 {
-    public int CustomerId { get; set; }
+    public int? CustomerId { get; set; }
 
     public string FirstName { get; set; } = null!;
 
@@ -22,4 +22,6 @@ public partial class Customer
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
     public virtual ICollection<Shipment> Shipments { get; set; } = new List<Shipment>();
+
+    public string RandomKey { get; internal set; }
 }

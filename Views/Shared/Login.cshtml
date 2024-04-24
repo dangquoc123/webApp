@@ -1,0 +1,33 @@
+﻿@model WebApplication1.ViewModels.LoginVM;
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5">
+        <div class="col-lg-8">
+            <div class="mb-4">
+                <h4 class="font-weight-semi-bold mb-4">Login</h4>
+                <form asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl">
+                    <div class="text-danger" asp-validation-summary="All"></div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label asp-for="@Model.PhoneNumber" class="form-label my-3"></label><sup>*</sup>
+                            <input asp-for="@Model.PhoneNumber" class="form-control" type="text" placeholder="">
+                            <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label asp-for="@Model.Password" class="form-label my-3"></label><sup>*</sup>
+                            <input asp-for="@Model.Password" class="form-control" type="text" placeholder="">
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>                        
+                    </div>
+                    <div class="card-footer border-secondary bg-transparent">
+                        <button type="submit" class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Login</button>
+                    </div>
+                    <a href="#">Forget Password</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
